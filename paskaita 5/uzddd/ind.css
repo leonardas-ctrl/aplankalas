@@ -1,0 +1,11 @@
+div {
+    border: 1px solid red   ;
+margin: 20px;
+}
+.box-1
+{
+    width: 232px;
+    height: 232px;
+    padding: 38px;
+    border: 4px solid black;
+}

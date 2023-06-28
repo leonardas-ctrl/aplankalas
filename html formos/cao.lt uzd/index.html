@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mbjvrogd" method="post">
+      <h1>Contact Us!</h1>
+      <label for="name"><b>Name:</b></label>
+      <br />
+      <input placeholder="Petrukas" id="name" type="text" name="name" />
+      <hr />
+      <label for="email"><b>Email:</b></label>
+      <br />
+      <input
+        placeholder="Petrukas@gmail.com"
+        id="email"
+        type="email"
+        required
+        maxlength="20"
+        name="email"
+      />
+      <hr />
+      <label for="referenceNumber"><b>Reference Number:</b></label>
+      <br />
+      <input
+        placeholder="2231"
+        id="referenceNumber"
+        type="number"
+        name="referenceNumber"
+      />
+      <hr />
+      <label for="message"></label>
+      <textarea
+        placeholder="Your message goes here..."
+        name="message"
+        id="message"
+        rows="1"
+      ></textarea>
+      <hr />
+      <button><b>Send!</b></button>
+    </form>
+  </body>
+</html>

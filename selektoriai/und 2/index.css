@@ -1,0 +1,22 @@
+div > div {
+    background-color: yellow;
+    text-align: center;
+    padding: 1rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0 auto;
+    
+}
+
+div h1::before,
+div h1::after,
+div h2::after,
+div h2::before
+ {
+    content: ' XXX ';
+color: red;
+}
+body > div {
+    border: 1px solid chartreuse;
+    
+}

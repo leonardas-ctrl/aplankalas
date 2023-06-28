@@ -1,0 +1,20 @@
+h3 {
+    color:  green;
+}
+
+p, h1, h3 {
+    border: 2px solid red;
+    line-height: 20px;
+    kerning: auto;
+}
+
+#mazesnio-labo-id  {
+ background-color: rgba(10, 223, 92, 0.171);
+}
+
+.test-class {
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+

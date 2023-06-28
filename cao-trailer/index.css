@@ -1,0 +1,75 @@
+html {
+    font-family: 'Kanit', sans-serif;
+}
+
+aside {
+background-color: rgb(37, 37, 44);
+    position: absolute;
+    color: white;
+    width: 250px;
+    top: 0px;
+    padding-bottom: 10000px ;
+    
+}
+
+h1 {
+    padding-left: 5%;
+}
+hr {
+    margin: 10px;
+    border: solid 1px black;
+    box-shadow: 1px 2px 3px white;
+    margin-bottom: 30px;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+aside nav {
+    padding-left: 40px;
+}
+.aside-ul li {
+    padding: 5px;
+}
+.aside-ul {
+    color: red;
+    
+}
+.btn:hover {
+    background-color: rgb(253, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    border-radius: 10px;
+    box-shadow: white 3px 4px 3px;
+    border: 3px solid rgb(145, 85, 85);
+}
+header {
+    margin-left: 300px;
+}
+header a {
+ text-decoration: none;
+ color: grey;
+ padding: 10px;
+}
+
+header nav {
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 50px;
+    
+}
+.zydra {
+    color: rgb(31, 175, 175) ;
+}
+section {
+    margin-left: 320px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+iframe {
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+}

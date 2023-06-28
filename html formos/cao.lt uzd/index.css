@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4053632.jpg) ;
+    background-size: 100vw;
+    background-position: 50%;
+    background-repeat: initial;
+}
+
+hr {
+    margin-top: 2px;
+    margin-bottom: 1rem;
+}
+form {
+    max-width: 30vw;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 10px rgb(0, 119, 128);
+}
+
+h1 {
+    text-align: center;
+}
+input, textarea {
+    border-color: transparent;
+    width: 30vw;
+}
+button {
+    background-color: rgb(53, 53, 53);
+    border: 2px solid transparent;
+    color: white;
+    width: 10vw;
+    padding: 3px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    }
+button:hover {
+    background-color: black;
+    color: rgb(0, 119, 128);
+    border: 2px solid rgb(0, 119, 128);
+    border-top: 2px solid rgb(255, 0, 140);
+    border-right: 2px solid rgb(255, 0, 140) ;
+    border-radius: 20px;
+    width: 30vw;
+    
+    
+}

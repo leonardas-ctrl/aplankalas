@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mbjvrogd" method="post">
+      <h1>Payment form</h1>
+      <p>required fields are followed by *</p>
+      <h2>Contact information</h2>
+      <fieldset>
+        <legend>title</legend>
+        <label for="title-miss">Miss</label>
+        <input id="title-miss" type="radio" name="title" value="miss" />
+        <br />
+        <label for="title-Mister">Mister</label>
+        <input id="title-Mister" type="radio" name="title" value="misster" />
+      </fieldset>
+      <label for="name"> Name *</label>
+      <input id="name" type="text" required name="name" />
+      <br />
+      <label for="Email">Email *</label>
+      <input id="Email" type="email" required name="Email" />
+      <br />
+      <label for="password">password *</label>
+      <input id="password" type="password" name="password" />
+      <h2>Payments information</h2>
+      <label for="CardType">CardType</label>
+      <select name="CardType" id="CardType">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+      </select>
+      <br />
+      <label for="cardnumber">Card Number *</label>
+      <input
+        id="cardnumber"
+        type="text"
+        minlength="16"
+        maxlength="16"
+        name="cardnumber"
+        required
+      />
+      <br />
+      <label for="expitrationdate">expitration date * </label>
+      <input type="date" />
+      <br />
+      <label for="expitrationdate"><i>Formated as mm/yy</i></label>
+      <br />
+      <div class="center">
+        <button type="submit">Validate the payment</button>
+      </div>
+    </form>
+  </body>
+</html>

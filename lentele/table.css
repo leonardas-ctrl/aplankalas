@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    margin: 2rem;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+.white-text {
+    color: white;
+}
+.red-border {
+    border: 2px solid red;
+}

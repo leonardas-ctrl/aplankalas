@@ -1,0 +1,25 @@
+body {font-family: 'Roboto', sans-serif;
+font-size: 12px;
+}
+
+
+h1 span {
+    color: rgb(78, 137, 206);
+}
+a {
+    color: blue
+}
+.text-width {
+    width: 300px;
+    
+  letter-spacing: 1px;
+}
+
+.green-link {
+    color: green;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 900;
+}

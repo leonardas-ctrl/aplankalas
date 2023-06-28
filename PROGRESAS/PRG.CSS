@@ -1,0 +1,37 @@
+header {
+    color: rgb(181, 0, 253);
+    background-color: rgba(0, 255, 170, 0.377);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+   
+}
+header nav a {
+    color: rgb(255, 0, 119);
+    border: 5px solid red;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: small;
+    
+}
+nav {
+    background-color: black;
+
+}
+section {
+    text-align: justify;
+    width: 500px;
+    }
+
+.img-inline {
+    display: inline;
+    max-width: 400px;;
+    
+}
+div {
+    display: grid;
+    
+}

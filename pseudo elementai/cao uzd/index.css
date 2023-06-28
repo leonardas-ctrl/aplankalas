@@ -1,0 +1,60 @@
+html {
+    font-family: 'Belanosima', sans-serif;
+}
+
+body {
+    background-image:linear-gradient(rgb(165, 255, 165), rgb(255, 255, 0));
+   
+    
+}
+
+form {
+    width: 30vw;
+    margin: auto;
+    background-color: rgba(0, 247, 132, 0.527);
+    text-align: center;
+    border-radius: 1rem;
+    border: solid 1px black;
+    box-shadow: 5px 5px 10px rgba(0, 68, 36, 0.795);
+    color: rgb(41, 41, 41);
+    margin-top: 5rem;
+}
+
+input:nth-child(5) {
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 141px;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+input:required {
+    border: 2px solid rgb(248, 107, 107);
+}
+input:valid {
+    border-color: green;
+}
+
+
+button {
+    color: green;
+    background-color: rgb(207, 255, 135);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 1px rgb(3, 255, 3) solid;
+}   
+
+button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    
+}
+
+.expander {
+    height: 50vw;
+}
+
+

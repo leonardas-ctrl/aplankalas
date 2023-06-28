@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(0, 20, 30);
+}
+
+table {
+    color: white;
+}
+td:nth-child(3) {
+    width: 200px;
+}
+td:nth-child(4), td:nth-child(5) {
+    width: 50px;
+}
+

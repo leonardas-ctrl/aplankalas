@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    
+}
+
+header nav {
+    background-color: green;
+    padding: 20px 0;
+}
+header nav a {
+color: white;
+margin:auto 20px;
+text-decoration: solid;
+}
+main img {
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 800px;
+}
+main {
+    
+    background-color: rgb(201, 199, 199);
+}
+section h1 {
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+}
+
+.padding {
+    padding: 15px;
+}

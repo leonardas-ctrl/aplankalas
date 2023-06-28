@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(58, 8, 65);
+}
+
+
+.container {
+    border: 3px dashed orange;
+    width: 500px;
+    color: orangered;
+    text-align: center;
+    background-color: rgba(46, 7, 58, 0.5);
+    padding: 40px;
+    text-shadow: 3px 4px 2px black;
+
+    
+
+}
+
+img {
+    width: 70%;
+    border-radius: 50px;
+    border-bottom: 20px solid green;
+    border-top: 20px solid white;
+    border-left: 20px solid blue;
+    border-right: 20px solid black;
+    
+}
+div {
+    margin: 100px auto;
+}
+h1 {
+    color: orange;
+}
+p {
+    margin-bottom: 90px;
+    text-align: justify;
+}
+.large-letter {
+    font-size: 30px;
+}

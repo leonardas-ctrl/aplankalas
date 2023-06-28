@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="">
+      <h1>Register To Fancy Form</h1>
+      <p>All fields are required unless marked as "optional"</p>
+      <label for="ID">Your unique ID that you can't change</label>
+      <br />
+      <input id="ID" type="text" placeholder="WEC123" disabled name="ID" />
+
+      <br />
+
+      <label for="email">Email:</label>
+
+      <br />
+
+      <input id="email" type="email" name="email" required />
+
+      <br />
+
+      <label for="password">Password:</label>
+      <br />
+      <input id="password" type="password" name="password" required />
+      <br />
+      <label for="age">Age:</label>
+      <br />
+      <input id="age" type="number" name="age" required min="18" max="65" />
+      <br />
+      <label for="about">Tell us about yourself (optional)</label>
+      <br />
+      <textarea name="about" id="about" cols="30" rows="3"></textarea>
+      <br />
+      <input id="T&C" type="checkbox" name="t&c" />
+      <label for="T&C">I agree with Terms & Conditions</label>
+      <br />
+      <button>Register</button>
+    </form>
+    <div class="expander"></div>
+  </body>
+</html>
