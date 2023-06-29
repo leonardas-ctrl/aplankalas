@@ -1,0 +1,29 @@
+.flex-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    flex-wrap: nowrap;
+    align-items: center ;
+    height: 1000px;
+}
+
+.flex-container > div {
+   
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+}
+
+.flex-container >div:last-child {
+    align-self: flex-start;
+}
+
+.flex-container >div:nth-child(2) {
+    align-self: baseline;
+order: 1; }
+    
+.flex-container >div:nth-child(1) {
+    align-self: stretch;
+    height: auto;
+}
