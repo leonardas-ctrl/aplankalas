@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 32vh;
+  gap: 0.5rem;
+}
+
+.grid-container > div {
+  background-color: orangered;
+}
+
+@media screen and (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.7rem;
+    grid-auto-rows: 50vh;
+  }
+
+  .grid-item-1 {
+    grid-column: span 4;
+  }
+  .grid-item-2 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-container {
+    gap: 1rem;
+  }
+
+  .grid-item-1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}

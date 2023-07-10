@@ -1,3 +1,8 @@
+:root {
+  --blue-violet: rgb(63, 26, 228);
+  --blue-violet-darker: rgb(48, 19, 175);
+}
+
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -5,7 +10,7 @@ html {
 header {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
+
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.336);
@@ -15,10 +20,11 @@ header {
 .socials {
   display: flex;
   margin-right: 50px;
+  font-size: 2rem;
 }
 
 .fa-brands {
-  color: rgb(63, 26, 228);
+  color: var(--blue-violet);
   padding: 7px;
 }
 
@@ -34,11 +40,78 @@ header {
 }
 
 .blue-text {
-  color: rgb(63, 26, 228);
+  color: var(--blue-violet);
 }
 
-.form {
-  width: 700px;
-  margin: auto;
-  margin-top: 100px;
+.container {
+  max-width: 700px;
+  margin: 5rem auto;
+}
+
+.your-tasks {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.your-tasks h2 {
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+.input-container > :first-child {
+  flex-grow: 2;
+  border: 1px solid rgba(220, 220, 220, 0.5);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgba(226, 226, 226, 0.555);
+}
+
+.input-container > :first-child:focus {
+  outline: none;
+}
+
+.input-container > :last-child {
+  flex-grow: 1;
+  background-color: var(--blue-violet);
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.input-container > :last-child:hover {
+  background-color: var(--blue-violet-darker);
+  cursor: pointer;
+}
+
+.your-tasks > p {
+  color: red;
+  text-align: start;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 0 3rem;
+  align-items: center;
+}
+.tasks-container {
+  margin-top: 60px;
+}
+
+.task-container ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
 }

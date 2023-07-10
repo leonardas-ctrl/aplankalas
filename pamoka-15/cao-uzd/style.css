@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(233, 231, 231);
+}
+
+header {
+  background-color: white;
+  width: 100vw;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.164);
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 550;
+}
+
+img {
+  width: 15rem;
+}
+
+h1 {
+  font-weight: 200;
+  color: rgb(109, 100, 100);
+  margin: 1rem;
+}
+
+.item-2 {
+  background-color: white;
+  margin: 2rem 1.5rem;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.164);
+  border-radius: 8px;
+  height: 30vh;
+}
+
+table {
+  margin: 1rem;
+}
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  nav {
+    padding: 5px;
+    align-self: center;
+  }
+  a {
+    display: inline;
+    padding: 1rem;
+  }
+  img {
+    width: 10rem;
+  }
+
+  .wrapper {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
