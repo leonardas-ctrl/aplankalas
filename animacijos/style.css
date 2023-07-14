@@ -1,0 +1,63 @@
+.animation {
+  width: 400px;
+  height: 400px;
+}
+
+@keyframes color-jump {
+  0% {
+    background-color: blue;
+    border-radius: 0%;
+    border: 50px solid rgb(0, 255, 13);
+  }
+
+  10% {
+    background-color: aqua;
+    border-radius: 10%;
+  }
+
+  20% {
+    border-radius: 20%;
+  }
+
+  30% {
+    background-color: rgb(201, 42, 42);
+    border-radius: 30%;
+  }
+
+  40% {
+    border-radius: 40%;
+  }
+
+  50% {
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 10px solid red;
+  }
+
+  60% {
+    border-radius: 40%;
+  }
+
+  75% {
+    background-color: aqua;
+    border-radius: 30%;
+  }
+
+  80% {
+    border-radius: 20%;
+  }
+
+  90% {
+    border-radius: 10%;
+  }
+
+  100% {
+    background-color: gold;
+    border-radius: 0%;
+    border: 50px solid rgb(47, 0, 255);
+  }
+}
+
+.animation {
+  animation: color-jump 0.4s infinite linear;
+}

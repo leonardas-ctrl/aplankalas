@@ -1,0 +1,88 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-image: url(androgynous-purple-2560x1080-11882.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  height: 7vh;
+  box-shadow: 0px 3px 5px 1px rgba(36, 0, 66, 0.76);
+  background-color: rgba(56, 0, 78, 0.096);
+}
+
+h1 {
+  margin: 0;
+}
+
+.Magic {
+  color: blueviolet;
+}
+
+header > div > h1 {
+  color: rgb(1, 28, 148);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.header-nav > a {
+  text-decoration: none;
+  color: rgba(252, 252, 252, 0.795);
+  font-weight: 500;
+  /* background-color: rgba(252, 211, 252, 0.459); */
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.header-nav > a:hover {
+  background-color: rgba(63, 0, 121, 0.219);
+  color: white;
+  box-shadow: 5px 5px 11px 3px rgba(238, 130, 238, 0.5);
+  transition: all 0.5s;
+}
+
+.meme {
+  width: 400px;
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+}
+
+.font-awesome {
+  margin-right: 1rem;
+  font-size: 2rem;
+  display: none;
+}
+
+div > img {
+  width: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .header-nav > a {
+    display: none;
+  }
+
+  .font-awesome {
+    margin-right: 1rem;
+    font-size: 2rem;
+    display: block;
+    color: white;
+  }
+}

@@ -1,0 +1,30 @@
+body {
+  height: 200vh;
+}
+
+.relative {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  z-index: -1;
+  background-color: blue;
+}
+
+.fixed {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+}
+
+.sticky {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  top: 150px;
+  left: 1000px;
+  position: sticky;
+}
