@@ -1,0 +1,55 @@
+h1 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+.animation {
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+  animation: animate 2s linear;
+}
+.animation ul {
+  color: rgb(251, 255, 0);
+}
+.animation li {
+  list-style: decimal;
+}
+.animation li a {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.anime, .test {
+  animation: animate 2s linear;
+}
+
+.test {
+  color: blue;
+  background-color: black;
+  font-size: smaller;
+  border: 1px solid saddlebrown;
+  background-color: #007b00;
+}
+
+.test2 {
+  background-color: yellow;
+  font-size: smaller;
+  border: 1px solid saddlebrown;
+}
+
+@keyframes animate {
+  0% {
+    rotate: 9deg;
+  }
+  50% {
+    scale: 3;
+  }
+  100% {
+    rotate: 599deg;
+    scale: 0.1;
+  }
+}/*# sourceMappingURL=style.css.map */

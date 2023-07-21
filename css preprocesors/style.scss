@@ -1,0 +1,88 @@
+$primary-color: green;
+
+
+
+h1 {
+    color: $primary-color;
+
+}
+
+p {
+    color: $primary-color;
+}
+
+
+.animation {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    animation: animate 2s linear ;
+
+    
+        ul {
+            color: rgb(251, 255, 0);
+        }
+        li {
+            list-style: decimal;
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                color: chartreuse;
+            }
+        }
+    
+
+}
+
+.anime {
+    animation: animate 2s linear ;
+}
+
+@mixin basic-element($color) {
+    background-color: $color;
+    font-size: smaller;
+    border: 1px solid saddlebrown;
+}
+
+.test {
+    color: blue;
+    @include basic-element(black);
+    @extend .anime;
+    background-color: darken($primary-color, 1);
+}
+
+.test2 {
+    @include basic-element(yellow)
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes animate {
+    0% {
+       rotate:(9deg);
+    }
+
+    50% {
+        scale: 3;
+    }
+    100% {
+       rotate:(599deg);
+       scale: 0.1;
+    }
+    
+}
+
+
+
+
+
+

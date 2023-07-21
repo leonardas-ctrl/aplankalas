@@ -1,0 +1,140 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  gap: 1.5rem;
+  display: none;
+}
+
+header ul li {
+  list-style: none;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 0.5rem;
+}
+
+.dropdown-burger {
+  margin-right: 2rem;
+}
+
+.section-1 {
+  position: relative;
+  margin-left: 1rem;
+  width: 100vw;
+}
+
+.section-1 > .img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-1 > :nth-child(1),
+.section-1 > :nth-child(2),
+.section-1 > :nth-child(3) {
+  max-width: 70vw;
+}
+
+.purple-text {
+  padding-top: 3rem;
+  color: var(--pink, #ff3998);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sign-up {
+  position: absolute;
+  top: 20px;
+}
+.svg-button {
+  background-image: url(assets/button.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 188px;
+  height: 75px;
+  margin-top: 1rem;
+}
+
+.section-2 {
+  margin-top: 5rem;
+  background-image: url(assets/background.svg);
+  background-position: 90%;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.section-2 > :nth-child(1),
+.section-2 > :nth-child(2) {
+  width: 80vw;
+
+  font-style: normal;
+
+  line-height: normal;
+}
+
+.section-2 > h1 {
+  padding-top: 4rem;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.logos {
+  margin: 3rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 150px;
+  margin-top: 1.5rem;
+  color: #999999;
+}
+
+.logo > span {
+  font-size: 30px;
+}
+
+.logo:nth-child(2) > span {
+  font-size: 35px;
+}
+
+.logo:nth-child(3) > span {
+  font-size: 40px;
+}
+
+.section-4 {
+  margin: 1rem 1.5rem;
+}
+
+.section-4 > h1 {
+  max-width: 60vw;
+}
